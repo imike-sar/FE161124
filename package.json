@@ -17,7 +17,16 @@
     "babelify": "^7.3.0",
     "browserify": "^13.1.1",
     "eslint": "^3.9.1",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^2.0.0",
+    "gulp-eslint": "^3.0.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-stylelint": "^3.4.0",
+    "gulp-stylelint-console-reporter": "^0.1.1",
+    "gulp-uglify": "^2.0.0",
     "node-static": "^0.7.9",
+    "through2": "^2.0.1",
     "watchify": "^3.7.0"
   }
 }
