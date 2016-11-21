@@ -44,7 +44,7 @@
         "no-with": "error",
         "camelcase": ["error", {"properties": "always"}],
         "comma-spacing": ["error", {"before": false, "after": true}],
-        "comma-style": ["error", "first"],
+        "comma-style": ["error", "last"],
         "computed-property-spacing": ["error", "never"],
         "func-call-spacing": ["error", "never"],
         "func-style": ["error", "declaration", { "allowArrowFunctions": true }],

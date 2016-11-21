@@ -8,6 +8,9 @@ import csso from 'gulp-csso';
 import stylelint from 'gulp-stylelint';
 import plumber from 'gulp-plumber';
 
+import postcss from 'gulp-postcss';
+import cssnext from 'postcss-cssnext';
+
 gulp.task('default', ['build-js', 'build-css'], () => {
 });
 
@@ -51,6 +54,11 @@ gulp.task('build-css', () => {
         {formatter: 'string', console: true}
       ]
     }))
+    .pipe(postcss([
+      cssnext({
+        browsers: ['last 5 versions', 'ie 8-11']
+      })
+    ]))
     .pipe(concat('bundle.css'))
     .pipe(csso())
     .pipe(gulp.dest('dist'));
