@@ -41,12 +41,12 @@ main {
 }
 
 .top-line a {
-  color: #000;
+    color: #aaa;
 }
 
 .line-left-block a {
-  background: url('../icons/heart.svg') no-repeat;
-  padding-left: 27px;
+    background: url('../icons/heart.svg') no-repeat;
+    padding-left: 27px;
 }
 
 .line-left-block {
@@ -62,13 +62,13 @@ main {
 }
 
 .line-right-block a:nth-child(3) {
-  padding-left: 29px;
-  background: url('../icons/cart.svg') no-repeat;
+    padding-left: 29px;
+    background: url('../icons/cart.svg') no-repeat;
 }
 
 .header {
-  max-width: 830px;
-  margin: 0 auto;
+    max-width: 830px;
+    margin: 0 auto;
 }
 
 .header::after {
@@ -84,14 +84,14 @@ main {
 }
 
 .header .left a {
-  display: inline-block;
-  width: 35px;
-  height: 35px;
-  background: url('../icons/instagram.svg') center no-repeat;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background: url('../icons/instagram.svg') center no-repeat;
 }
 
 .header .left a:nth-child(2) {
-  background-image: url('../icons/facebook.svg');
+    background-image: url('../icons/facebook.svg');
 }
 
 .header .right {
@@ -159,9 +159,9 @@ main {
 }
 
 .grid::after {
-  content: '';
-  display: table;
-  width: 100%;
+    content: '';
+    display: table;
+    width: 100%;
 }
 
 .grid h2 {
@@ -245,7 +245,7 @@ main {
     margin-top: 20px;
     margin-bottom: 40px;
     border-top: 1px solid #d3d3d3;
-    text-align: center;
+    text-align: center; 
 }
 
 .client-service > h2 {
@@ -257,7 +257,6 @@ main {
     color: #858585;
     text-transform: uppercase;
 }
-
 .client-service ul {
     margin-top: 0;
     text-align: center;

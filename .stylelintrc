@@ -1,0 +1,21 @@
+{
+  "rules": {
+    "color-no-invalid-hex": true,
+    "indentation": 4,
+    "max-empty-lines": 1,
+    "no-duplicate-selectors": true,
+    "no-extra-semicolons": true,
+    "no-invalid-double-slash-comments": true,
+    "no-missing-end-of-source-newline": true,
+    "property-case": "lower",
+    "value-keyword-case": "lower",
+    "declaration-bang-space-before": "always",
+    "declaration-bang-space-after": "never",
+    "declaration-colon-newline-after": "always-multi-line",
+    "declaration-colon-space-after": "always-single-line",
+    "declaration-colon-space-before": "never",
+    "block-no-single-line": true,
+    "block-opening-brace-newline-after": "always",
+    "declaration-block-semicolon-newline-after": "always"
+  }
+}
