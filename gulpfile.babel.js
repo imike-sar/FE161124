@@ -10,6 +10,7 @@ import plumber from 'gulp-plumber';
 
 import postcss from 'gulp-postcss';
 import cssnext from 'postcss-cssnext';
+import pimport from 'postcss-import';
 
 gulp.task('default', ['build-js', 'build-css'], () => {
 });
@@ -55,6 +56,7 @@ gulp.task('build-css', () => {
       ]
     }))
     .pipe(postcss([
+      pimport(),
       cssnext({
         browsers: ['last 5 versions', 'ie 8-11']
       })

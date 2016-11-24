@@ -27,6 +27,7 @@
     "gulp-uglify": "^2.0.0",
     "node-static": "^0.7.9",
     "postcss-cssnext": "^2.8.0",
+    "postcss-import": "^8.2.0",
     "through2": "^2.0.1",
     "watchify": "^3.7.0"
   }
